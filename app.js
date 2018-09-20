@@ -4,7 +4,7 @@ let total = friends.length;
 
 for (let i = 0; i < total; ++i) {
     for (let c = 99; c > 2; --c) {
-        console.log([c] + "\xa0" + "lines of code in the file, " + [c] + "\xa0" + "lines of code; " + (friends[i]) + " strikes one out, clears it all out, " + [c - 1] + " lines of code in the file.");
+        console.log(c + "\xa0" + "lines of code in the file, " + c + "\xa0" + "lines of code; " + (friends[i]) + " strikes one out, clears it all out, " + (c - 1) + " lines of code in the file.");
     };
     console.log("2 lines of code in the file, 2 lines of code; " + (friends[i]) + " strikes one out, clears it all out, 1 line of code in the file.");
     console.log("1 line of code in the file, 1 line of code; " + (friends[i]) + " strikes one out, clears it all out, no more lines of code in the file.");
